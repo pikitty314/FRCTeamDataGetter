@@ -14,18 +14,19 @@ redAlliance = matchdata["alliances"]["red"]["team_keys"]
 blueAlliance = matchdata["alliances"]["blue"]["team_keys"]
 allTeams = redAlliance + blueAlliance
 
-teamEPAs = dict()
+teamData = dict()
 
 for team in allTeams:
-    teamdata = sb.get_team_year(int(team), YEAR) # Get team data
+    sbdata = sb.get_team_year(int(team), YEAR) # Get team data
 
-    teamEPAs[str(team)] = {}
+    teamData[str(team)] = {}
 
-    teamEPAs[str(team)]["total_epa"] = float(teamdata["epa"]["breakdown"]["total_points"]) # Total EPA
-    teamEPAs[str(team)]["auto_epa"] = float(teamdata["epa"]["breakdown"]["auto_points"]) # Auto EPA
-    teamEPAs[str(team)]["teleop_epa"] = float(teamdata["epa"]["breakdown"]["teleop_points"]) # Teleop EPA
-    teamEPAs[str(team)]["endgame_epa"] = float(teamdata["epa"]["breakdown"]["endgame_points"]) # Endgame EPA
+    teamData[str(team)]["total_epa"] = float(sbdata["epa"]["breakdown"]["total_points"]) # Total EPA
+    teamData[str(team)]["auto_epa"] = float(sbdata["epa"]["breakdown"]["auto_points"]) # Auto EPA
+    teamData[str(team)]["teleop_epa"] = float(sbdata["epa"]["breakdown"]["teleop_points"]) # Teleop EPA
+    teamData[str(team)]["endgame_epa"] = float(sbdata["epa"]["breakdown"]["endgame_points"]) # Endgame EPA
 
-    #print(str(team) + ": " + str(teamEPAs[str(team)]["total_epa"]))
+    #print(str(team) + ": " + str(teamData[str(team)]["total_epa"]))
 else:
-    print(teamEPAs)
+    dataframe = pandas.DataFrame(teamData)
+    print(dataframe)
