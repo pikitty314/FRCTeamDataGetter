@@ -47,6 +47,8 @@ for team in preScouting["Team #"]:
 
 
 ### PULL DATA FROM PIT SCOUTING ###
+pitScouting = pandas.read_csv("pitScoutingData.csv").transpose()
+print(pitScouting)
 
 dataframe = pandas.DataFrame(teamData)
 print(dataframe)
