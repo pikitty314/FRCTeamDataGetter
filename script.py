@@ -1,5 +1,6 @@
 import statbotics
 import pandas
+import io
 
 # Constants
 YEAR = 2025
@@ -47,8 +48,27 @@ for team in preScouting["Team #"]:
 
 
 ### PULL DATA FROM PIT SCOUTING ###
-pitScouting = pandas.read_csv("pitScoutingData.csv").transpose()
-print(pitScouting)
+pitScouting = pandas.read_csv(io.StringIO(pandas.read_csv("pitScoutingData.csv").transpose().to_csv()))
+
+# Set the first row as the heading and drop it
+pitScouting.columns = pitScouting.iloc[0]
+pitScouting = pitScouting[1:].reset_index(drop=True)
+
+indexCounter = 0
+for team in pitScouting["Team Number"]:
+    for target in allTeams:
+        if (int(team) == int(target)):
+            #pass
+            teamData[str(team)]["can_score_l4"] = pitScouting["Coral Scoring -- L4"].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["can_score_l3"] = pitScouting["Coral Scoring -- L3"].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["can_score_l2"] = pitScouting["Coral Scoring -- L2"].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["can_score_l1"] = pitScouting["Coral Scoring -- L1"].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["algae_intake_ability"] = pitScouting["Can you intake Algae from the Reef, the Floor, Both, or Neither?\n* [If they can't intake algae from the reef...] Can you knock algae off the reef? "].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["algae_scoring_ability"] = pitScouting["Can you score Algae in the Processor, the Barge, Both, or Neither?"].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["auto_coral_ability"] = pitScouting["In Auto, how many Coral can you score?"].loc[pitScouting.index[indexCounter]]
+            teamData[str(team)]["auto_algae_ability"] = pitScouting["In Auto, do you ever handle Algae?"].loc[pitScouting.index[indexCounter]]
+    else:
+        indexCounter += 1
 
 dataframe = pandas.DataFrame(teamData)
 print(dataframe)

@@ -1,27 +1,27 @@
-Team Number,27,33,51,201,226,302,1038,1076,1506,1555,1596,2834,3175,3357,3538,3641,3655,3656,4327,4381,4384,4422,4776,5205,5460,5461,5704,6078,7197,7211,8424,8728,9176,9312,,,,,,,
-Team Name,Team RUSH,Killer Bees,Wings of Fire,The FEDS,Hammerheads,The Dragons,Lakota Robotics,PiHi Samurai,Metal Muscle,Cryofrost,The Instigators,Bionic Black Hawks,Knight Vision,COMETS,RoboJackets,The Flying Toasters,Tractor Technicians,Dexter Dreadbots,Q Branch,Twisted Devils,Benzene Bots,Twisted Angels,SCOTS Bots,FullMetal-Jackets,Strike Zone,Byron Robotics,Weird & Wired,RoboRams,Mountie Megabots,Hollywood,Next Gen,Argonauts,Steel Sturgeons,NERD Spark,,,,,,,
-What type of drivetrain do you have?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-What motors do you use to drive?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Can you intake Coral from the Coral Station, the Floor, or Both?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Coral Scoring -- L4 ,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Coral Scoring -- L3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Coral Scoring -- L2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-Coral Scoring -- L1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Team Number,27,33,51,201,226,302,1038,1076,1506,1555,1596,2834,3175,3357,3538,3641,3655,3656,4327,4381,4384,4422,4776,5205,5460,5461,5704,6078,7197,7211,8424,8728,9176,9312
+Team Name,Team RUSH,Killer Bees,Wings of Fire,The FEDS,Hammerheads,The Dragons,Lakota Robotics,PiHi Samurai,Metal Muscle,Cryofrost,The Instigators,Bionic Black Hawks,Knight Vision,COMETS,RoboJackets,The Flying Toasters,Tractor Technicians,Dexter Dreadbots,Q Branch,Twisted Devils,Benzene Bots,Twisted Angels,SCOTS Bots,FullMetal-Jackets,Strike Zone,Byron Robotics,Weird & Wired,RoboRams,Mountie Megabots,Hollywood,Next Gen,Argonauts,Steel Sturgeons,NERD Spark
+What type of drivetrain do you have?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+What motors do you use to drive?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Can you intake Coral from the Coral Station, the Floor, or Both?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Coral Scoring -- L4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Coral Scoring -- L3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Coral Scoring -- L2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Coral Scoring -- L1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 "Can you intake Algae from the Reef, the Floor, Both, or Neither?
-* [If they can't intake algae from the reef...] Can you knock algae off the reef? ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Can you score Algae in the Processor, the Barge, Both, or Neither?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"In Auto, how many Coral can you score?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"In Auto, do you ever handle Algae?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Coral + algae per match (estimate),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Endgame: Can you Deep Climb or Shallow Climb?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Have you played defense in any matches this season?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Do you have cameras on your bot and, if so, how many? ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Can you detect April tags?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Can you auto-align?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-How many seasons has your Driver been driving?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Is there anything else you'd like us to know?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+* [If they can't intake algae from the reef...] Can you knock algae off the reef? ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Can you score Algae in the Processor, the Barge, Both, or Neither?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"In Auto, how many Coral can you score?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"In Auto, do you ever handle Algae?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Coral + algae per match (estimate),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Endgame: Can you Deep Climb or Shallow Climb?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Have you played defense in any matches this season?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Do you have cameras on your bot and, if so, how many? ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Can you detect April tags?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Can you auto-align?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+How many seasons has your Driver been driving?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Is there anything else you'd like us to know?,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "* ASK TO TAKE PHOTOS of their bot. 
-* Take ONE photo that shows at a minimum their intake mechanism. Try to make it broad",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-THANK THEM AND WISH THEM GOOD LUCK AT THE EVENT!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Our Notes (If Any),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+* Take ONE photo that shows at a minimum their intake mechanism. Try to make it broad",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+THANK THEM AND WISH THEM GOOD LUCK AT THE EVENT!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Our Notes (If Any),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
