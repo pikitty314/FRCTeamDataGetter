@@ -1,6 +1,7 @@
 import statbotics
 import pandas
 import io
+import pyperclip
 
 # Constants
 YEAR = 2025
@@ -71,4 +72,6 @@ for team in pitScouting["Team Number"]:
         indexCounter += 1
 
 dataframe = pandas.DataFrame(teamData)
-print(dataframe)
+
+print(dataframe.to_string())
+pyperclip.copy(dataframe.to_csv(sep=";", na_rep="N/A"))
