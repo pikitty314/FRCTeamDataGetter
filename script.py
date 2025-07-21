@@ -47,13 +47,13 @@ indexCounter = 0
 for team in preScouting["Team #"]:
     for target in allTeams:
         if (int(team) == int(target)):
-            teamData[str(team)]["auto_rating"] = float(preScouting["Auton"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["coral_intake_rating"] = float(preScouting["Coral\n Intake"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["coral_scoring_rating"] = float(preScouting["Coral \nScoring\n on L4/3/2"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["coral_L1_rating"] = float(preScouting["Coral \nScoring \n on L1"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["algae_rating"] = float(preScouting["Algae \nIntake\n & Scoring"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["endgame_rating"] = float(preScouting["Endgame"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["defense_rating"] = float(preScouting["Defense\n (N/A if not observed)"].loc[preScouting.index[indexCounter]])
+            teamData[str(team)]["auto_rating"] = preScouting["Auton"].loc[preScouting.index[indexCounter]]
+            teamData[str(team)]["coral_intake_rating"] = preScouting["Coral\n Intake"].loc[preScouting.index[indexCounter]]
+            teamData[str(team)]["coral_scoring_rating"] = preScouting["Coral \nScoring\n on L4/3/2"].loc[preScouting.index[indexCounter]]
+            teamData[str(team)]["coral_L1_rating"] = preScouting["Coral \nScoring \n on L1"].loc[preScouting.index[indexCounter]]
+            teamData[str(team)]["algae_rating"] = preScouting["Algae \nIntake\n & Scoring"].loc[preScouting.index[indexCounter]]
+            teamData[str(team)]["endgame_rating"] = preScouting["Endgame"].loc[preScouting.index[indexCounter]]
+            teamData[str(team)]["defense_rating"] = preScouting["Defense\n (N/A if not observed)"].loc[preScouting.index[indexCounter]]
     else:
         indexCounter += 1
 
