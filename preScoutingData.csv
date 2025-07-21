@@ -1,24 +1,32 @@
-Team #,Name,EPA,Auton,"Coral Intake","Coral Scoring on L4/3/2","Coral Scoring  on L1","Algae Intake & Scoring",Endgame,"Defense (N/A if not observed)",Notes,,Awards,Designated Scout,,
-27,Team RUSH,80,3,4,4,4,5,5,N/A,,,"Kettering 1 - Finalist, GP
+Team #,Name,EPA,Auton,"Coral
+ Intake","Coral 
+Scoring
+ on L4/3/2","Coral 
+Scoring 
+ on L1","Algae 
+Intake
+ & Scoring",Endgame,"Defense
+ (N/A if not observed)",Notes,,Awards,Designated Scout,,
+27,Team RUSH,80,3,4,4,4,5,5,N/A,It's rush,,"Kettering 1 - Finalist, GP
 St Louis - Winners, Industrial Design
 Saline - EI, DLSF, Finalist
 DCMP - Winner, Innovation in Control, DLF",Izzy,,
-33,Killer Bees,77.2,3,4,3,?,3,,,,,"Ferndale - Winner
+33,Killer Bees,77.2,3,4,3,?,3,5,N/A,It's bees,,"Ferndale - Winner
 Troy - Winner, Excellence in Engineering
 DCMP - Indistrial Design
 Hopper - Excellence in Engineering",Izzy,,
-51,Wings of Fire,60.5,2,3,2,2,4,,N/A,please no don't pick them istg - andrew,,"Belleville - Spirit
+51,Wings of Fire,60.5,2,3,2,2,4,4,N/A,"REALLY unreliable. Might be a conspiracy, but every first playoff match where we've been in a competition with them they catastrophically break. Also, they don't score consistently either (especially net)",,"Belleville - Spirit
 Mason - Industrial Design",Izzy,,
-201,The FEDS,43.5,2,2,2,1,4,,,"Super inconsistent and can't aim for their life, for a lot of these skills, they can do it but they either don't do it very well or they just aren't super reliable. ",,"Mt. Pleasant - Impact
+201,The FEDS,43.5,2,2,2,1,4,3,N/A,"Super inconsistent and can't aim for their life, for a lot of these skills, they can do it but they either don't do it very well or they just aren't super reliable. ",,"Mt. Pleasant - Impact
 Troy - Sustainability
 DCMP - Impact",Izzy,,
-226,Hammerheads,72.3,,,,,,,,,,"Lake City - Sustainability
+226,Hammerheads,72.3,3,4,3,1,3,4,N/A,really efficient and quick but i guess there's just some missing stuff when it comes to additions to their well built robot (ex. ground intaking and a claw that could rotate more (for possibly L1 scoring?) ,,"Lake City - Sustainability
 Troy - Impact
 DCMP - Division Finalist",Izzy,,
-302,The Dragons,67.6,,,,,,1,,,,"Ferndale - Creativity
+302,The Dragons,67.6,3,3,2,1,3,4,N/A,"they stopped like 33 second before the match was over which was a little like weird but, their driving was a little clunky sometimes or off-balance which led to the robot stumbling and it took a bit to regain itself. if they coul get more efficitent in how they drive the robot they got a lot of potential ",,"Ferndale - Creativity
 Jackson - Finalist, Excellence in Engineering
 DCMP - Judges",Izzy,,
-1038,Lakota Robotics,40.3,,,,,,,,,,"Rocket City - Impact
+1038,Lakota Robotics,40.3,2.5,1,1,1,5,3,N/A,algae specialist but i feel like they could be more efficient with it and they don't do anything at all with coral. I think a stronger foundation woud be benificial for them because some movements can look wobbly or unstable. ,,"Rocket City - Impact
 Miami Valley - Volunteer of the Year, Industrial 
 Design
 Hopper - Industrial Design",Izzy,,
@@ -29,51 +37,51 @@ DCMP - Imagery",Andrew,,
 Troy - Finalist, GP
 DCMP - GP, Woodie Flowers Finalist",Andrew,,
 1555,Cryofrost,16,1,1,1,4,1,1,N/A,Appears to just be a sad REV ION bot that can't use its elevator? Literally can only do L1 leave and park points. This was data from like week 3 FIN Kokomo event though...,,Mishawaka - Finalist,Andrew,,
-1596,The Instigators,26.8,2,1,1,1,3,1,2,Why.,,LSSU - Rising All-Star,Andrew,,
+1596,The Instigators,26.8,2,1,1,1,3,1,2,Processor only :( which is annoying because processor is just 2 points with no purpose and now I'm sad,,LSSU - Rising All-Star,Andrew,,
 2834,Bionic Black Hawks,67.2,3,1,3,1,4,4,N/A,"Crazy reliability issues at worlds. Broke during our match with them very quickly, as well as other matches",,"Milford - Excellence in Engineering
 Muskegon - DLSF, Finalist, Excellence in
 Engineering
 DCMP - Autonomous
 Archimedes - Excellence in Engineering",Andrew,,
-3175,Knight Vision,70.1,3,4,4,?,3,5,N/A,,,"Midland - Winner, Autonomous
+3175,Knight Vision,70.1,3,4,4,N/A,3,5,N/A,"Overall solid bot. No proof of L1, but have historically had successful strategy and software. 2022 world champions",,"Midland - Winner, Autonomous
 DCMP - GP",Andrew,,
-3357,COMETS,51.8,1,2,3,1,1,1,N/A,,,"Lake City - Quality
+3357,COMETS,51.8,1,2,3,1,1,1,N/A,I would say DNP based on performance at IRI relative to other teams,,"Lake City - Quality
 West Michigan - Industrial Design",Andrew,,
 3538,RoboJackets,77.1,3,3,4,3,4,4,N/A,At Lakeshore Endurance they didn't climb,,"Ferndale - Winner, Autonomous
 Muskegon - Winner, Quality
 DCMP - Autonomous",Andrew,,
-3641,The Flying Toasters,31.4,,,,,,,,,,"Belleville - DLSF
+3641,The Flying Toasters,31.4,1,3,2,N/A,1,3,1,,,"Belleville - DLSF
 Livonia - EI
 DCMP - DLF",Andrew,,
-3655,Tractor Technicians,58.2,2,2,2,1,4,3,N/A,,,"Battle Creek - Finalist, GP
+3655,Tractor Technicians,58.2,2,2,2,1,4,3,N/A,It's a John Deere tractor,,"Battle Creek - Finalist, GP
 Mason - Impact
 DCMP - Judges
 Newton - Imagery",Andrew,,
-3656,Dexter Dreadbots,66,,,,,,,,,,"Milford - Winner, Innovation in Control
+3656,Dexter Dreadbots,66,2,2,3,2,4,4,N/A,"Rankings look high at events, BUT their SOS was consistently really low (easy schedules)",,"Milford - Winner, Innovation in Control
 Jackson - Innovation in Control",Andrew,,
-4327,Q Branch,35.4,,,,,,,,,,"Traverse City - Impact
+4327,Q Branch,35.4,2,2,2,1,2,1,N/A,Slow to score coral but good at the processor,,"Traverse City - Impact
 Ferris State - EI",Tejas,,
-4381,Twisted Devils,43.9,,,,,,,,,,"Battle Creek - Excellence in Engineering
+4381,Twisted Devils,43.9,3,1,3,1,3,4,2,"Decent at coral and net scoring, coral intake is scarily bad, and they broke in auton in one of the matches I watched",,"Battle Creek - Excellence in Engineering
 Berrien Springs - Team Spirit
 Kentwood - EI, Finalist",Tejas,,
-4384,Benzene Bots,19.8,,,,,,,,,,Troy - Judges,Tejas,,
-4422,Twisted Angels,61,,,,,,,,,,"Battle Creek - Impact, DLSF
+4384,Benzene Bots,19.8,1,1,1,1,2.5,1,2,"They can pull algae off the reef, have a funnel, but have zero coral capabilities!? As a proccessor bot, DNP unless they rebuilt since W4",,Troy - Judges,Tejas,,
+4422,Twisted Angels,61,2,1,3,1,4,3,N/A,"Algae specialist, but not great at coral (seems to dislike doing as they only really attempted coral in one of the matches I watched)",,"Battle Creek - Impact, DLSF
 Berrien Springs - Quality
 Kentwood - Innovation in Control
 DCMP - DLF",Tejas,,
-4776,SCOTS Bots,70.1,,,,,,,,,,"Muskegon - EI
+4776,SCOTS Bots,70.1,2,2,4,3,1,4,N/A,,,"Muskegon - EI
 Mason - Winner, GP",Tejas,,
-5205,FullMetal-Jackets,19.3,,,,,,,,,,-,Others,,
-5460,Strike Zone,77.3,,,,,,,,,,"Kettering 1 - Winner, Team Sustainability
+5205,FullMetal-Jackets,19.3,1,3,1,1,1,1,N/A,,,-,Others,,
+5460,Strike Zone,77.3,3,3,4,5,5,5,N/A,,,"Kettering 1 - Winner, Team Sustainability
 Saline - Winner, Innovation in Control
 DCMP - Winner, Industrial Design",Others,,
-5641,Byron Robotics,32.1,,,,,,,,,,Woodhaven - GP,Slope,,
+5641,Byron Robotics,32.1,1,1,1,2,1,1,N/A,,,Woodhaven - GP,Slope,,
 5704,Weird & Wired,14.5,1,1,1,1,1,1,2,"DNP under any circumstances
 Last event was W5, may have retrained/rebuilt since then",,Midland - Imagery,Slope,,
 6078,RoboRams,33.7,1,1,1,2,1,2,N/A,"DNP under any circumstances
 Last event was W5, may have retrained/rebuilt since then",,-,Slope,,
-6517,So-Kno Robo,48.5,,,,,,,,,,"Rocket City - Innovation in Control Award
-Smoky Mountains - Innovation in Control Award",Slope,,
+6517,So-Kno Robo,48.5,2,3,3,1,2,3,N/A,,,"Rocket City - Innovation in Control Award
+Smoky Mountains - Innovation in Control Award",Andrew,,
 7197,Mountie Megabots,51.5,2,3,3,2,2,1,N/A,"Decent team
 Good at coral, all algae is processor unfortunately
 May have built a climb since Worlds",,"Battle Creek - Finalist, Imagery

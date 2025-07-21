@@ -31,25 +31,41 @@ for team in allTeams:
 
 
 ### PULL DATA FROM PRE SCOUTING ###
-preScouting = pandas.read_csv("preScoutingData.csv")
+preScouting = {}
+try:
+    # Attempt to get online data
+    preScouting = pandas.read_csv("https://docs.google.com/spreadsheets/d/1Wmq8-JmdmKnbyP2ugYfs_vGFBbQ_E34Tj_4mVdkYWnA/export?gid=1694826509&format=csv")
+    preScouting = preScouting.drop([0,1,2,3,5,6,7])
+    preScouting.columns = preScouting.iloc[0]
+    preScouting = preScouting[1:].reset_index(drop=True)
+    preScouting = pandas.read_csv(io.StringIO(preScouting.to_csv()))
+except:
+    print("Fell back to local pre-scouting data")
+    preScouting = pandas.read_csv("preScoutingData.csv")
 
 indexCounter = 0
 for team in preScouting["Team #"]:
     for target in allTeams:
         if (int(team) == int(target)):
             teamData[str(team)]["auto_rating"] = float(preScouting["Auton"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["coral_intake_rating"] = float(preScouting["Coral Intake"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["coral_scoring_rating"] = float(preScouting["Coral Scoring on L4/3/2"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["coral_L1_rating"] = float(preScouting["Coral Scoring  on L1"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["algae_rating"] = float(preScouting["Algae Intake & Scoring"].loc[preScouting.index[indexCounter]])
+            teamData[str(team)]["coral_intake_rating"] = float(preScouting["Coral\n Intake"].loc[preScouting.index[indexCounter]])
+            teamData[str(team)]["coral_scoring_rating"] = float(preScouting["Coral \nScoring\n on L4/3/2"].loc[preScouting.index[indexCounter]])
+            teamData[str(team)]["coral_L1_rating"] = float(preScouting["Coral \nScoring \n on L1"].loc[preScouting.index[indexCounter]])
+            teamData[str(team)]["algae_rating"] = float(preScouting["Algae \nIntake\n & Scoring"].loc[preScouting.index[indexCounter]])
             teamData[str(team)]["endgame_rating"] = float(preScouting["Endgame"].loc[preScouting.index[indexCounter]])
-            teamData[str(team)]["defense_rating"] = float(preScouting["Defense (N/A if not observed)"].loc[preScouting.index[indexCounter]])
+            teamData[str(team)]["defense_rating"] = float(preScouting["Defense\n (N/A if not observed)"].loc[preScouting.index[indexCounter]])
     else:
         indexCounter += 1
 
 
 ### PULL DATA FROM PIT SCOUTING ###
-pitScouting = pandas.read_csv(io.StringIO(pandas.read_csv("pitScoutingData.csv").transpose().to_csv()))
+pitScouting = {}
+try:
+    # Try to get online pit scouting data
+    pitScouting = pandas.read_csv(io.StringIO(pandas.read_csv("https://docs.google.com/spreadsheets/d/1fdGYdZ9yxb8Jbm_znspI2aFLtc540xTeS0D1ZJOdecU/export?gid=189750286&format=csv").transpose().to_csv()))
+except Exception as e:
+    print("Fell back to local pit scouting data")
+    pitScouting = pandas.read_csv(io.StringIO(pandas.read_csv("pitScoutingData.csv").transpose().to_csv()))
 
 # Set the first row as the heading and drop it
 pitScouting.columns = pitScouting.iloc[0]
