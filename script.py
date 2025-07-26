@@ -14,8 +14,8 @@ sb = statbotics.Statbotics() # Get Statbotics
 
 allTeams = [None] * 6
 if (PICKLIST_MODE):
-    # NOTE: 7211B excluded as B teams are not supported
-    allTeams = ["1076", "27", "33", "51", "201", "226", "302", "1038", "1506", "1596", "2834", "3175", "3357", "3538", "3641", "3655", "3656", "4327", "4381", "4384", "4422", "4776", "5205", "5460", "5641", "5704", "6078", "6517", "7197", "7211", "8424", "8728", "9312"]
+    # NOTE: 7211B entered as 9991. We'll see if that works
+    allTeams = ["1076", "27", "33", "51", "201", "226", "302", "1038", "1506", "1596", "2834", "3175", "3357", "3538", "3641", "3655", "3656", "4327", "4381", "4384", "4422", "4776", "5205", "5460", "5641", "5704", "6078", "6517", "7197", "7211", "8424", "8728", "9312", "9991"]
 else:
     try:
         matchdata = sb.get_match(EVENT_CODE + "_" + MATCH_CODE) # Get match data
@@ -24,7 +24,7 @@ else:
         blueAlliance = matchdata["alliances"]["blue"]["team_keys"]
         allTeams = redAlliance + blueAlliance
     except:
-        print("It appears that Statbotics is down. Using local Statbotics data instead.\nYou'll need to manually enter the team numbers for the next match (B teams not supported).")
+        print("It appears that Statbotics is down. Using local Statbotics data instead.\nYou'll need to manually enter the team numbers for the next match (B Roll is 9991).")
         for x in range(1, 7):
             if (x<=3):
                 allTeams[x - 1] = input("Enter team number for Red Alliance team #" + str(x) + " ")
@@ -52,6 +52,9 @@ for team in allTeams:
 
         for target in sbDataLocal["num"]:
             if (int(target) == int(team)):
+                if PICKLIST_MODE:
+                    pass
+                    #teamData[str(team)]["rank"] = float(sbDataLocal["ranking"].loc[sbDataLocal.index[indexCounter]]) # Rank
                 teamData[str(team)]["total_epa"] = float(sbDataLocal["total_epa"].loc[sbDataLocal.index[indexCounter]]) # Total EPA
                 teamData[str(team)]["auto_epa"] = float(sbDataLocal["auto_epa"].loc[sbDataLocal.index[indexCounter]]) # Auto EPA
                 teamData[str(team)]["teleop_epa"] = float(sbDataLocal["teleop_epa"].loc[sbDataLocal.index[indexCounter]]) # Teleop EPA
